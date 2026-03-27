@@ -11,6 +11,7 @@ export default function App() {
   const [showBackToTop, setShowBackToTop] = useState(false);
 
   useEffect(() => {
+    document.title = "Perpetuo Agency | Branding, Performance & Legado";
     const handleScroll = () => {
       setShowBackToTop(window.scrollY > 500);
     };
