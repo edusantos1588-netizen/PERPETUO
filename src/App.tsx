@@ -86,8 +86,10 @@ export default function App() {
       </nav>
 
       {/* Hero Section */}
-      <header className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Video Background */}
+      <main>
+        <header className="relative min-h-screen flex items-center justify-center overflow-hidden">
+          <h1 className="sr-only">Perpetuo Agency - Branding, Performance e Legado</h1>
+          {/* Video Background */}
         <video
           autoPlay
           loop
@@ -509,6 +511,7 @@ export default function App() {
           </motion.div>
         </div>
       </section>
+      </main>
 
       {/* Footer */}
       <footer className="relative overflow-hidden bg-noise bg-gradient-to-r from-purple-800 via-purple-600 to-blue-700 py-16 px-6">
@@ -531,12 +534,14 @@ export default function App() {
             <a
               href="#"
               className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-colors"
+              aria-label="Siga-nos no Instagram"
             >
               <Instagram size={20} />
             </a>
             <a
               href="#"
               className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-colors"
+              aria-label="Conecte-se no LinkedIn"
             >
               <Linkedin size={20} />
             </a>
