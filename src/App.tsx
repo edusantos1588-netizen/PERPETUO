@@ -225,7 +225,7 @@ export default function App() {
               <div className="absolute -bottom-8 left-10 w-48 h-48 bg-orange-500 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-blob"></div>
               <img
                 src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400&h=400"
-                alt="Retrato Fundador"
+                alt="Retrato Perpetuo - Founder & CCO"
                 className="relative z-10 w-full h-full object-cover rounded-full grayscale contrast-125"
                 referrerPolicy="no-referrer"
               />
